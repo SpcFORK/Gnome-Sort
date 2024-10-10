@@ -1,0 +1,10 @@
+#[5,4,3,2,1] @def=SortArr;
+
+container;
+  "Unsorted Array: ";
+  basictext @ret=SortArr;
+  br;
+  "Sorted Array: ";
+  sortedtext @ret=gnomeSort(SortArr);
+
+@del=SortArr;
